@@ -30,10 +30,10 @@ public class User implements Serializable {
 	private String lastName;
 	
 	@Temporal(TemporalType.DATE)
-	private Date dateNaissance;
+	private Date dNaissance;
 	
 	@Enumerated(EnumType.STRING)
-	Role role; 
+	Role roleee; 
 	
 	public User() {	}
 
